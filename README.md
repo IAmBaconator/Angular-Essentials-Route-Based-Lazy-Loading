@@ -26,6 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To use the Angular DevTools Pluggin, instead of npm start command, use `ng serve --host=0.0.0.0 --port=4200` to spin up the app. One option is to update the `package.json` under scripts add `"codespace": "ng serve --host=0.0.0.0 --port=4200"` so you can then use the command `npm run codespace` to spin up the site.
 
+Also, for some reason the codespace Angular setup seems to not include Angular CLI services.  So, run `npm install -g @angular/cli` so it will work.
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
